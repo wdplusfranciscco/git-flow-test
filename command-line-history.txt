@@ -1,0 +1,242 @@
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:07:56 ]
+  > [ ~/pCloudSync/DevLearn ]
+  >  $ ll
+total 48
+-rw-r--r--@  1 Adventus01  staff   102B Jul  7 20:27 README.txt
+-rw-r--r--@  1 Adventus01  staff   2.2K Aug  7 22:54 Untitled.txt
+drwxr-xr-x  27 Adventus01  staff   918B Aug  4 22:02 complete-vue/
+-rw-r--r--@  1 Adventus01  staff   604B Aug 15 19:57 git-frequent-commands.txt
+drwxr-xr-x   9 Adventus01  staff   306B Jul 20 23:44 intro-to-vue/
+drwxr-xr-x   6 Adventus01  staff   204B Aug  1 09:24 learning-javascript/
+drwxr-xr-x   4 Adventus01  staff   136B Jul 23 21:36 mikegithubber/
+drwxr-xr-x  10 Adventus01  staff   340B Aug 15 14:47 node-farm/
+drwxr-xr-x   7 Adventus01  staff   238B Aug  6 21:50 pirple-front-end/
+drwxr-xr-x   7 Adventus01  staff   238B Jul 21 19:09 pull-requests/
+drwxr-xr-x   6 Adventus01  staff   204B Aug  4 19:36 tags/
+drwxr-xr-x   7 Adventus01  staff   238B Jul 10 18:55 udemy-complete-git-guide/
+-rw-r--r--@  1 Adventus01  staff   314B Aug 14 19:59 vscode-frequent-use-shortcuts.txt
+drwxr-xr-x   3 Adventus01  staff   102B Jul 18 23:43 vue-mastery/
+-rw-r--r--@  1 Adventus01  staff   1.9K Aug  9 08:23 wdp.png
+-rw-r--r--@  1 Adventus01  staff   165B Aug  7 21:35 ~$jonas-study-plan.xlsx
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:08:17 ]
+  > [ ~/pCloudSync/DevLearn ]
+  >  $ mkdir git-flow-test
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:08:37 ]
+  > [ ~/pCloudSync/DevLearn ]
+  >  $ ll
+total 48
+-rw-r--r--@  1 Adventus01  staff   102B Jul  7 20:27 README.txt
+-rw-r--r--@  1 Adventus01  staff   2.2K Aug  7 22:54 Untitled.txt
+drwxr-xr-x  27 Adventus01  staff   918B Aug  4 22:02 complete-vue/
+drwxr-xr-x   2 Adventus01  staff    68B Aug 16 19:08 git-flow-test/
+-rw-r--r--@  1 Adventus01  staff   604B Aug 15 19:57 git-frequent-commands.txt
+drwxr-xr-x   9 Adventus01  staff   306B Jul 20 23:44 intro-to-vue/
+drwxr-xr-x   6 Adventus01  staff   204B Aug  1 09:24 learning-javascript/
+drwxr-xr-x   4 Adventus01  staff   136B Jul 23 21:36 mikegithubber/
+drwxr-xr-x  10 Adventus01  staff   340B Aug 15 14:47 node-farm/
+drwxr-xr-x   7 Adventus01  staff   238B Aug  6 21:50 pirple-front-end/
+drwxr-xr-x   7 Adventus01  staff   238B Jul 21 19:09 pull-requests/
+drwxr-xr-x   6 Adventus01  staff   204B Aug  4 19:36 tags/
+drwxr-xr-x   7 Adventus01  staff   238B Jul 10 18:55 udemy-complete-git-guide/
+-rw-r--r--@  1 Adventus01  staff   314B Aug 14 19:59 vscode-frequent-use-shortcuts.txt
+drwxr-xr-x   3 Adventus01  staff   102B Jul 18 23:43 vue-mastery/
+-rw-r--r--@  1 Adventus01  staff   1.9K Aug  9 08:23 wdp.png
+-rw-r--r--@  1 Adventus01  staff   165B Aug  7 21:35 ~$jonas-study-plan.xlsx
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:08:50 ]
+  > [ ~/pCloudSync/DevLearn ]
+  >  $ cd git-flow-test/
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:08:56 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  >  $ ll
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:08:59 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  >  $ la
+total 0
+drwxr-xr-x   2 Adventus01  staff    68B Aug 16 19:08 ./
+drwxr-xr-x  20 Adventus01  staff   680B Aug 16 19:08 ../
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:09:00 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  >  $ git init
+Initialized empty Git repository in /Users/Adventus01/pCloudSync/DevLearn/git-flow-test/.git/
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:09:04 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ ll
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:09:10 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ la
+total 0
+drwxr-xr-x   3 Adventus01  staff   102B Aug 16 19:09 ./
+drwxr-xr-x  20 Adventus01  staff   680B Aug 16 19:08 ../
+drwxr-xr-x   9 Adventus01  staff   306B Aug 16 19:09 .git/
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:09:11 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git init
+Reinitialized existing Git repository in /Users/Adventus01/pCloudSync/DevLearn/git-flow-test/.git/
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:10:48 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git flow init
+No branches exist yet. Base branches must be created now.
+Branch name for production releases: [master] 
+Branch name for "next release" development: [develop] 
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/] 
+Release branches? [release/] 
+Hotfix branches? [hotfix/] 
+Support branches? [support/] 
+Version tag prefix? [] 
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:11:21 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ git branch -vv
+* develop 70efa26 Initial commit
+  master  70efa26 Initial commit
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:13:00 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ git checkout master
+Switched to branch 'master'
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:16:41 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git remote show origin
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:16:47 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git remote add origin https://github.com/wdplusfranciscco/git-flow-test.git
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:22:00 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/wdplusfranciscco/git-flow-test.git
+  Push  URL: https://github.com/wdplusfranciscco/git-flow-test.git
+  HEAD branch: (unknown)
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:22:04 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git branch -vv
+  develop 70efa26 Initial commit
+* master  70efa26 Initial commit
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:27:42 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git branch -r -vv
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:27:46 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git branch -r
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:27:53 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git push origin master
+Username for 'https://github.com': wdplusfranciscco
+Password for 'https://wdplusfranciscco@github.com': 
+Enumerating objects: 2, done.
+Counting objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 165 bytes | 165.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/wdplusfranciscco/git-flow-test.git
+ * [new branch]      master -> master
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:28:37 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/wdplusfranciscco/git-flow-test.git
+  Push  URL: https://github.com/wdplusfranciscco/git-flow-test.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:28:47 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git branch -vv
+  develop 70efa26 Initial commit
+* master  70efa26 Initial commit
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:29:05 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git branch -r -vv
+  origin/master 70efa26 Initial commit
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:29:12 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git branch -a -vv
+  develop               70efa26 Initial commit
+* master                70efa26 Initial commit
+  remotes/origin/master 70efa26 Initial commit
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:29:20 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ tree
+.
+
+0 directories, 0 files
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:41:37 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ tree
+.
+└── command-line-history.txt
+
+0 directories, 1 file
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:41:39 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ touch index.html
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:41:51 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ tree
+.
+├── command-line-history.txt
+└── index.html
+
+0 directories, 2 files
+
+
