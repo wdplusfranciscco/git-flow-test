@@ -240,3 +240,193 @@ To https://github.com/wdplusfranciscco/git-flow-test.git
 0 directories, 2 files
 
 
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:41:54 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	command-line-history.txt
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:44:55 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ touch .gitignore
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:45:18 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ echo ".DS_Store" > .gitignore 
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:45:40 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	command-line-history.txt
+	index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:48:25 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git add .
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:48:44 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git commit -m "Do initial setup: add .gitignore, command-line-history.txt and empty index.html template to start development from there"
+[master 9c54d08] Do initial setup: add .gitignore, command-line-history.txt and empty index.html template to start development from there
+ 3 files changed, 254 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 command-line-history.txt
+ create mode 100644 index.html
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:50:44 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git tag v0.0.0 -a -m "Release version 0.0.0. Start initial development with an empty index.html template"
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:51:05 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git tag -n
+v0.0.0          Release version 0.0.0. Start initial development with an empty index.html template
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:51:22 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git push -u origin master
+Username for 'https://github.com': wdplusfranciscco
+Password for 'https://wdplusfranciscco@github.com': 
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 2.08 KiB | 2.08 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/wdplusfranciscco/git-flow-test.git
+   70efa26..9c54d08  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:52:25 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git push origin v0.0.0
+Username for 'https://github.com': wdplusfranciscco
+Password for 'https://wdplusfranciscco@github.com': 
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 210 bytes | 210.00 KiB/s, done.
+Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/wdplusfranciscco/git-flow-test.git
+ * [new tag]         v0.0.0 -> v0.0.0
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:55:58 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (master) $ git checkout develop
+M	command-line-history.txt
+Switched to branch 'develop'
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:57:23 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ git merge master
+Already up to date.  <-- Note: This should have been a normal checkout message, but I made a mistake and had to delete the develop branch and create it again from master. This, however should have been the proper step at this point had I not messed up. So I am faking it here.
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 19:57:31 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ git push -u origin develop
+Username for 'https://github.com': wdplusfranciscco
+Password for 'https://wdplusfranciscco@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/wdplusfranciscco/git-flow-test/pull/new/develop
+remote: 
+To https://github.com/wdplusfranciscco/git-flow-test.git
+ * [new branch]      develop -> develop
+Branch 'develop' set up to track remote branch 'develop' from 'origin'.
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 20:00:44 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ git branch -vv
+* develop 9c54d08 [origin/develop] Do initial setup: add .gitignore, command-line-history.txt and empty index.html template to start development from there
+  master  9c54d08 [origin/master] Do initial setup: add .gitignore, command-line-history.txt and empty index.html template to start development from there
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 20:00:51 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ tree
+.
+├── command-line-history.txt
+└── index.html
+
+0 directories, 2 files
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 20:01:55 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ la
+total 56
+drwxr-xr-x   7 Adventus01  staff   238B Aug 16 19:45 ./
+drwxr-xr-x  21 Adventus01  staff   714B Aug 16 19:34 ../
+-rw-r--r--@  1 Adventus01  staff   6.0K Aug 16 19:34 .DS_Store
+drwxr-xr-x  13 Adventus01  staff   442B Aug 16 20:00 .git/
+-rw-r--r--   1 Adventus01  staff    10B Aug 16 19:45 .gitignore
+-rw-r--r--@  1 Adventus01  staff    12K Aug 16 20:00 command-line-history.txt
+-rw-r--r--   1 Adventus01  staff   205B Aug 16 19:42 index.html
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 20:11:15 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (develop) $ git flow feature start 2-add-title-and-header
+M	command-line-history.txt
+Switched to a new branch 'feature/2-add-title-and-header'
+
+Summary of actions:
+- A new branch 'feature/2-add-title-and-header' was created, based on 'develop'
+- You are now on branch 'feature/2-add-title-and-header'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish 2-add-title-and-header
+
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 20:12:49 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (feature/2-add-title-and-header) $ git push origin
+fatal: The current branch feature/2-add-title-and-header has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature/2-add-title-and-header
+
+
+
+  > [ iMac/Users/Adventus01/ ]  [ Sun Aug 16 20:15:09 ]
+  > [ ~/pCloudSync/DevLearn/git-flow-test ]
+  > (feature/2-add-title-and-header) $ git push -u origin feature/2-add-title-and-header 
+Username for 'https://github.com': wdplusfranciscco
+Password for 'https://wdplusfranciscco@github.com': 
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature/2-add-title-and-header' on GitHub by visiting:
+remote:      https://github.com/wdplusfranciscco/git-flow-test/pull/new/feature/2-add-title-and-header
+remote: 
+To https://github.com/wdplusfranciscco/git-flow-test.git
+ * [new branch]      feature/2-add-title-and-header -> feature/2-add-title-and-header
+Branch 'feature/2-add-title-and-header' set up to track remote branch 'feature/2-add-title-and-header' from 'origin'.
+
+
